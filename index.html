@@ -5,13 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Austin Huebner</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="mybulma/css/mystyles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
 </head>
 
 
 <body>
-    <section class="hero is-dark">
+    <section class="hero is-info">
         <div class="hero-head">
             <nav class="navbar">
                 <div class="container">
@@ -20,13 +21,10 @@
                             <a class="navbar-item is-active">
                                 Home
                             </a>
-                            <a class="navbar-item">
-                                Published Games
-                            </a>
-                            <a class="navbar-item">
+                            <a class="navbar-item" href="game-jams.html">
                                 Game Jams
                             </a>
-                            <a class="navbar-item">
+                            <a class="navbar-item" href="about.html">
                                 About
                             </a>
                         </div>
@@ -34,9 +32,9 @@
                 </div>
             </nav>
         </div>
-        <div class="hero-body has-background-grey-dark">
+        <div class="hero-body has-background-primary">
             <figure class="container image is-128x128">
-                <img class="is-rounded" src="images/profile-picture.jpg">
+                <img class="is-rounded shadow" src="images/profile-picture.jpg">
             </figure>
             <br>
             <div class="container has-text-centered">
@@ -49,37 +47,156 @@
             </div>
             <div class="container has-text-centered">
                 <span class="icon is-large">
-                    <a href="https://twitter.com/austinpandemic" style="color: inherit;">
+                    <a href="https://twitter.com/austinpandemic">
                         <i class="fab fa-twitter-square fa-2x"></i>
                     </a>
                 </span>
                 <span class="icon is-large">
-                    <a href="https://austinh1.itch.io/" style="color: inherit;">
+                    <a href="https://austinh1.itch.io/">
                         <i class="fab fa-itch-io fa-2x"></i>
                     </a>
                 </span>
                 <span class="icon is-large">
-                    <a href="https://github.com/austinh1" style="color: inherit;">
+                    <a href="https://github.com/austinh1">
                         <i class="fab fa-github-square fa-2x"></i>
                     </a>
                 </span>
             </div>
         </div>
     </section>
+    <section class="hero is-dark is-bold">
+        <div class="hero-body">
+            <p class="is-size-4 has-text-centered">
+                Hello there! I'm a Unity developer from Cincinnati. Video game development is one of my many
+                passions, so if you're here to see my showcase you're in the right place!
+            </p>
+        </div>
+    </section>
     <section class="section">
         <div class="container">
-            <div class="columns">
-                <div class="column">
-                    <div class="notification">
-                        <p class="is-size-5">
-                            Hello there! I'm a Unity developer from Cincinnati. Video game development is one of many of my passions, so if you're here to see my showcase you're in the right place!
-                        </p>
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                    <div class="tile is-child box">
+                        <figure class="image shadow">
+                            <img src="images/match-point-banner.png" />
+                        </figure>
+                        <div class="container">
+                            <span class="icon is-large">
+                                <a href="https://store.steampowered.com/app/764890/Match_Point/">
+                                    <i class="fab fa-steam-square fa-2x"></i>
+                                </a>
+                            </span>
+                            <span class="icon is-large">
+                                <a href="https://jollycrouton.itch.io/matchpoint">
+                                    <i class="fab fa-itch-io fa-2x"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <h1 class="title">Match Point</h1>
+                        <h2 class="subtitle">Jolly Crouton</h2>
+                        <p>Match Point is a frenetic couch competition game for 2 - 4 contenders. Tether, kick, block,
+                            and counter the ball into the opposing team's goal as you hop around in the newfound gravity
+                            of this modern take on a familiar arena.</p>
+                        <br />
+                        <p>Match Point began life as Gravity Pong, a simple physics-based multiplayer side project by
+                            Austin Huebner. Meant as an exercise in exploring game feel and tinkering with refining
+                            simple mechanics into allowing pro-level skill caps, the game seemed to be a hit at events,
+                            with crowds forming around and returning to whatever table held it. Austin joined forces
+                            with Clayton at GDEX, an Ohio-based game developer event. There, they discussed
+                            collaborating on projects, and thus began the overhaul and rebirth of Gravity Pong into
+                            Match Point. They’ve been working together on packing in lots of fun content to sweeten the
+                            pot of the elegant and catchy mechanic at the game’s core: tethering and kicking a ball.
+                            They never would have made it this far without chicken tikka masala dev nights.</p>
+                        <br />
+                        <figure class="image is-3by4 shadow">
+                            <img src="images/clayton-and-austin.jpg" />
+                        </figure>
+                        <br />
                     </div>
                 </div>
-                
+                <div class="tile is- is-parent">
+                    <div class="tile is-vertical">
+                        <div class="tile is-child box">
+                            <figure class="image shadow">
+                                <img src="images/franchise-wars.png" />
+                            </figure>
+                            <div class="container">
+                                <span class="icon is-large">
+                                    <a href="https://store.steampowered.com/app/1058590/Franchise_Wars/">
+                                        <i class="fab fa-steam-square fa-2x"></i>
+                                    </a>
+                                </span>
+                                <span class="icon is-large">
+                                    <a href="https://austinh1.itch.io/franchisewars">
+                                        <i class="fab fa-itch-io fa-2x"></i>
+                                    </a>
+                                </span>
+                            </div>
+                            <h1 class="title">Franchise Wars</h1>
+                            <h2 class="subtitle">Jolly Crouton & Tiny Warrior Games</h2>
+                            <p>Franchise Wars is a puzzle-strategy game, or puzzegy game, developed by the good folks at
+                                Jolly Crouton Media and Tiny Warrior Games. The game was made game-jam style, over a
+                                month filled to the brim with passionate pixel pushing and code cobblin'.</p>
+                            <br />
+                        </div>
+                        <div class="tile is-child box">
+                            <figure class="image shadow">
+                                <img src="images/gastronaut-cover.png" />
+                            </figure>
+                            <div class="container">
+                                <span class="icon is-large">
+                                    <a href="https://austinh1.itch.io/gastronaut">
+                                        <i class="fab fa-itch-io fa-2x"></i>
+                                    </a>
+                                </span>
+                                <span class="icon is-large">
+                                    <a href="https://github.com/austinh1/ggj-2020">
+                                        <i class="fab fa-github-square fa-2x"></i>
+                                    </a>
+                                </span>
+                            </div>
+                            <h1 class="title">Gastronaut</h1>
+                            <h2 class="subtitle">Global Game Jam 2020</h2>
+                            <p>A ginormic black hole threatens the local planetary system! Thankfully, Gummy Gumm-Gumm,
+                                the intrepid spacefarer who also has an expanding head, is here to plug the hole before
+                                all is lost! Eat all the things. Become one with everything. Save the day.</p>
+                            <br />
+                            <p>Made in Unity with a team of talented people during the 2020 Global Game Jam.</p>
+                            <br />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <div class="container has-text-centered">
+                <h3>
+                    Keep in contact!
+                </h3>
+                <span class="icon is-large">
+                    <a href="https://twitter.com/austinpandemic">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                </span>
+                <span class="icon is-large">
+                    <a href="https://www.facebook.com/austin.huebner.5">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                </span>
+                <span class="icon is-large">
+                    <a href="https://www.linkedin.com/in/steven-huebner-5074a095/">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </span>
+                <span class="icon is-large">
+                    <a href="mailto:austinsh94@gmail.com">
+                        <i class="fas fa-envelope-square fa-2x"></i>
+                    </a>
+                </span>
+            </div>
+    </footer>
 </body>
 
 </html>
