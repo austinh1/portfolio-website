@@ -5,28 +5,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Austin Huebner</title>
-    <link rel="stylesheet" href="mybulma/css/mystyles.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="packages/css/mystyles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
 </head>
 
 <body>
     <section class="hero is-info">
         <div class="hero-head">
-            <nav class="navbar">
-                <div class="container">
-                    <div id="navbarMenuHeroA" class="navbar-menu">
-                        <div class="navbar-end">
-                            <a class="navbar-item" href="index.html">
-                                Home
-                            </a>
-                            <a class="navbar-item is-active">
-                                Game Jams
-                            </a>
-                            <a class="navbar-item" href="about.html">
-                                About
-                            </a>
-                        </div>
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="http://austinhuebner.com">
+                        AUSTIN HUEBNER
+                    </a>
+                    <div class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </div>
+                </div>
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="index.html">
+                            Home
+                        </a>
+                        <a class="navbar-item is-active" href="game-jams.html">
+                            Game Jams
+                        </a>
+                        <a class="navbar-item" href="about.html">
+                            About
+                        </a>
                     </div>
                 </div>
             </nav>
@@ -44,7 +53,7 @@
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
                     <div class="tile is-child box">
-                        <figure class="image shadow">
+                        <figure class="image picture shadow">
                             <img src="images/gastronaut-cover.png" />
                         </figure>
                         <div class="container">
@@ -71,7 +80,7 @@
                 </div>
                 <div class="tile is-parent">
                     <div class="tile is-child box">
-                        <figure class="image shadow">
+                        <figure class="image picture shadow">
                             <img src="images/day-of-the-dad.png" />
                         </figure>
                         <div class="container">
@@ -99,7 +108,7 @@
                 </div>
                 <div class="tile is-parent">
                     <div class="tile is-child box">
-                        <figure class="image shadow">
+                        <figure class="image picture shadow">
                             <img src="images/unstoppable-shipment-pigeon-service.png" />
                         </figure>
                         <div class="container">
@@ -129,7 +138,7 @@
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
                     <div class="tile is-child box">
-                        <figure class="image shadow">
+                        <figure class="image picture shadow">
                             <img src="images/project-maus.png" />
                         </figure>
                         <div class="container">
@@ -155,7 +164,7 @@
                 </div>
                 <div class="tile is-parent">
                     <div class="tile is-child box">
-                        <figure class="image shadow">
+                        <figure class="image picture shadow">
                             <img src="images/cute-gojira.png" />
                         </figure>
                         <div class="container">
@@ -180,7 +189,7 @@
                 </div>
                 <div class="tile is-parent">
                     <div class="tile is-child box">
-                        <figure class="image shadow">
+                        <figure class="image picture shadow">
                             <img src="images/pipes-and-presses.png" />
                         </figure>
                         <div class="container">
@@ -197,13 +206,11 @@
                         </div>
                         <h1 class="title">Pipes and Presses</h1>
                         <h2 class="subtitle">One Button Gam Jam 2017</h2>
-                        <p>Lead the balls to their goals through a confusing but asthetically nice set of pipes! That
-                            kinda
-                            came out weird. This game was developed for a two week one button game jam; the only input
-                            in
-                            the entire game is the space bar. With it you change the direction of pipes, leading the
-                            balls
-                            to their goal. Try to get the balls to their goals in as few presses as you can!</p>
+                        <p>Lead the balls to their goals through a confusing but asthetically looking pipes! This game
+                            was developed for a two week one button game jam; the only
+                            input in the entire game is the space bar. With it you change the direction of pipes,
+                            leading the balls to their goal. Try to get the balls to their goals in as few presses as
+                            you can!</p>
                         <br />
                         <p>Made in Unity with Andy Gergel during the One Button Game Jam 2017.</p>
                         <br />
@@ -213,7 +220,7 @@
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
                     <div class="tile is-child box">
-                        <figure class="image shadow">
+                        <figure class="image picture shadow">
                             <img src="images/immunity-man.png" />
                         </figure>
                         <div class="container">
@@ -267,5 +274,8 @@
             </div>
     </footer>
 </body>
+
+<script src="packages\node_modules\jquery\dist\jquery.min.js"></script>
+<script src="js/menu.js"></script>
 
 </html>
