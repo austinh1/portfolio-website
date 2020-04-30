@@ -15,6 +15,6 @@
     "start": "npm run css-watch"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
